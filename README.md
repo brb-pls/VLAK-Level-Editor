@@ -10,7 +10,7 @@ Level Editor pro VLAK 2.00 od Miroslava Němečka z roku 1995.
 Tento repozitář obsahuje všechno, co se týče editace scén (levelů) ve hře VLAK od Miroslava Němečka (c) pro verzi 2.00 vydanou v roce 1995.
 
 ## Návod k použití:
-Stáhněte celý repozitář z Releases [https://github.com/brb-pls/VLAK-Level-Editor/tags](zde). Je silně doporučeno vždy stáhnout ten release, který je nejnovější, tj. ten nahoře.
+Stáhněte celý repozitář z Releases (https://github.com/brb-pls/VLAK-Level-Editor/tags). Je silně doporučeno vždy stáhnout ten release, který je nejnovější, tj. ten nahoře.
 
 Zip soubor obsahuje source soubory VLAKu verze 2.00 a .exe soubor `leved081.exe`. Po extrahování složky můžete bezpečně otevřít tento .exe soubor a vrhnout se do vytváření svých levelů!
 
