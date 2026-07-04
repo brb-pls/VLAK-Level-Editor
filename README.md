@@ -44,9 +44,21 @@ GOLEM
 ####################
 ```
 
-Tohle je první level ve hře. To je ta 1: nahoře. Má heslo GOLEM a její makro je tam tady. Hned pod tím vším bordelem je level jako takový, definovaný znakama, který máš zkopírovaný po exportu ve schránce. Celý to vezmeš a prostě to vyměníš. A to je všechno, úspěch!
+(Poznámka: Pokud chceš importovat level zpátky do editoru, tak už vybíráš POUZE hrací plochu. Zkopíruješ si ji pomocí <kbd>Ctrl</kbd> + <kbd>C</kbd> a v editoru klikneš na Import ze schránky.
+Heslo, číslo a makro budeš muset udělat znova!)
 
-Pokud chceš importovat level zpátky do editoru, tak už vybíráš POUZE hrací plochu. Zkopíruješ si ji pomocí <kbd>Ctrl</kbd> + <kbd>C</kbd> a v editoru klikneš na Import ze schránky.
-Heslo, číslo a makro budeš muset udělat znova!
+Tohle je první level ve hře. To je ta 1: nahoře. Má heslo GOLEM a její makro je tam tady. Hned pod tím vším bordelem je level jako takový, definovaný znakama, který máš zkopírovaný po exportu ve schránce. Celý to vezmeš a prostě to vyměníš.
+
+Když máš všechny levely v pořadí vyměněné tak, jak chceš, přesuneš soubor `VLAK_WIN1250.SCN` o jeden adresář nahoru, tj. mimo složku `.\SOURCE\` do `.\`, a uděláš dvě poslední věci:
+Najdeš soubor `VLAK$.SCN` a přejmenuješ jej na např. `VLAK$_ZALOHA.SCN`, a přesunutý soubor `VLAK_WIN1250.SCN` přejmenuješ na `VLAK$.SCN`. A to je vše!
+
+Pak už můžeš klasicky spustit VLAK přes DOSBox.
+Menší tutoriál na to, jak to udělat, pro ty méně technicky zdatné:
+Stačí stáhnout DOSBox (https://www.dosbox.com/download.php?main=1) pro operační systém, na kterém zrovna jste. Před jeho zapnutím uděláme pár změn, aby se nám ulehčila práce s adresáři; celou složku se vším všudy přesuneme do `C:\`, čili náš adresář bude `C:\Vlak\` ... DOSBox totiž nemá rád, když máte v adresářích mezeru, a to je celkem problém, pokud máte třeba Windows nastavený tak jako já (čili s mezerou pro uživatelské jméno). Tímto se tomu vyvarujeme. Následně zapneme DOSBox, a do něj napíšeme pár příkazů:
+* `mount c C:\Vlak` - tento příkaz DOSBoxu řekne, že tohle bude náš výchozí adresář, ve kterém ho budeme chtít, aby pracoval.
+* `c:` - tohle přepne přímo na ten adresář, o kterém jsme mu řekli.
+* `vlak.bat` - spustí spouštěcí soubor pro VLAK, a v okně DOSBoxu se VLAK zapne.
+
+A to je vše, užívejte!
 
 brb.
